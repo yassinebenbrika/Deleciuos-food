@@ -1,0 +1,119 @@
+@font-face {
+    font-family: paprika;
+    src: url(img/Paprika-Regular.ttf);
+}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(img/bruh.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-attachment: fixed;
+}
+
+.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding:20px 100px ;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    z-index: 99px;
+}
+.DeleciousFood {
+    color: #9A9A9A;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 800px;
+    font-family: oleo script;
+}
+.navbar a{
+    position: relative;
+    font-size: 16px;
+    color: #9A9A9A;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.navbar a:hover::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #9A9A9A;
+  
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end; 
+}
+.About {
+    padding-top: 150px; 
+    padding-bottom: 100px; 
+
+}
+
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly; 
+    margin: 70px;
+    gap: 0px;
+}
+.container div{
+    width: 40%;
+    text-align: center; 
+}
+.container div h2{
+    align-items: center;
+    font-family: paprika;
+    color: #D55A01;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+.container div p
+{
+    color: #fff;
+}
+.image {
+    width: 207px;
+    height: 200px;
+    margin-top: 10px; 
+}
+
+  
+  .footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FD6A00;
+    height: 300px; 
+
+  }
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .socialIcons img {
+    width: 36px; 
+    height: 36px; 
+    margin: 0 10px; 
+  }
+  

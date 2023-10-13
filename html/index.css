@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: oleo script;
+    src: url(../html/img/OleoScript-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"poppins", sans-serif; 
+}
+body{
+    min-height: 100vh;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0);
+    background-attachment: fixed; 
+}
+.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding:20px 100px ;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    z-index: 100;
+}
+.DeleciousFood {
+    color: #9A9A9A;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 800px;
+    font-family: oleo script;
+}
+.navbar a{
+    position: relative;
+    font-size: 16px;
+    color: #9A9A9A;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.navbar a:hover::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #9A9A9A;
+  
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end; 
+}
+a.link {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Optional: Make the section full viewport height */
+    text-align: center; /* Optional: Center text within the section */
+    background-size: cover; /* Optional: Adjust background size */
+    background-position: center; /* Optional: Center background */
+    padding-bottom: 80px;
+
+}
+.Home h1{
+    font-size: 50px; /* Optional: Adjust the font size as needed */
+    font-family: oleo script;
+    color: #706a6a;
+    padding-bottom: 20px;  
+ }
+ .Home p{
+    color: #fff;
+    width: 806px;
+ }
+ 
+ .Home button{
+    margin-top: 20px;  
+
+ }
+.Home button{  
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: 222px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin-top: 40px;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
